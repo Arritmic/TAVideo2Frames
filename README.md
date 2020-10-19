@@ -1,4 +1,7 @@
 # TAVideo2Frames
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Python 3.6](https://img.shields.io/badge/python-3.6+-green.svg)](https://www.python.org/downloads/release/python-360/)
+
 
 Project for sampling frames from a video or a folder containing videos.
 It saves the frames with the _video id_ and the number of the sampled frame in the output folder.
@@ -43,9 +46,9 @@ Set `-sre` option to True.
 
 `python3 ./tavideo2frames.py -if /path/to/folder/with/videos -of ./output/path -fr "CSV" -sr 0.25 -sre True
 `
-<p align="center"><img src="docs/images/screenshot_1.png" /></p>
+<p align="center"><img src="docs/images/screenshot_1.png" width="400" /></p>
 
-<p align="center"><img src="docs/images/screenshot_2.png" /></p>
+<p align="center"><img src="docs/images/screenshot_2.png" width="400" /></p>
 
 
 
