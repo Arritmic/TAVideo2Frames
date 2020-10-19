@@ -127,3 +127,20 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Idea / PyCharm
+*.idea*
+
+
+# Project dependant
+data/videos/output/*.mp4
+data/videos/output/*.avi
+data/videos/*.avi
+data/results/*.h5
+data/results/*.csv
+
+# Data
+*.jpg
+*.mpge
+*.zip
+*.7z
