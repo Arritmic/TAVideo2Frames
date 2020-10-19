@@ -1,0 +1,16 @@
+name: consa_cv_1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6.5
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - pandas
+  - pip:
+      - opencv-python
+      - opencv-contrib-python
+      - dlib
+      - imutils
+      - dload
+      - tables
